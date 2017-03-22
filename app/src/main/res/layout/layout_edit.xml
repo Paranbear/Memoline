@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    tools:context="com.d4us.memoline_rb.MainActivity"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:id="@+id/iv_line_1"
+        android:background="#878686"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="74.57dp"
+        android:id="@+id/container2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/iv_bg"
+            android:layout_centerInParent="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:background="@android:color/transparent"
+            android:layout_alignParentTop="false"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_alignParentStart="false"
+            android:text="기억에 대한 느낌만 남아있어"
+            android:textSize="13dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:id="@+id/iv_line_2"
+            android:background="#878686"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="14.2dp"
+        android:layout_marginTop="14.2dp"
+        android:layout_marginRight="14.2dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="17.1dp"
+            android:id="@+id/iv_fontcolor"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="false"
+            android:layout_alignLeft="@+id/bar_font"
+            android:layout_centerVertical="true"
+            android:src="@drawable/post_color_text"
+            android:layout_alignParentStart="false" />
+
+        <SeekBar
+            android:layout_width="300dp"
+            android:layout_height="16.5dp"
+            android:id="@+id/bar_font"
+            android:progress="0"
+            android:max="10"
+            android:thumb="@android:color/transparent"
+            android:progressDrawable="@drawable/post_text_color_gradient"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="14.2dp"
+            android:layout_alignParentStart="false"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_marginTop="30dp" >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:id="@+id/imageView_line"
+                android:background="#878686"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bt_bg_trans"
+                android:scaleType="fitXY"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:id="@+id/imageView_line2"
+                android:background="#878686"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bt_bg_add"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:id="@+id/imageView_line3"
+                android:background="#878686"
+                android:layout_alignParentStart="true" />
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bar_color"
+                android:layout_weight="1"
+                android:thumb="@null"
+                android:indeterminate="false"
+                android:progress="0"
+                android:max="360"
+                android:progressDrawable="@android:color/transparent" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:id="@+id/imageView_line11"
+                android:background="#878686"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bt_bg_1"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:id="@+id/imageView_line4"
+                android:background="#878686"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bt_bg_2"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:id="@+id/imageView_line5"
+                android:background="#878686"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bt_bg_3"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:id="@+id/imageView_line6"
+                android:background="#878686"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bt_bg_4"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:id="@+id/imageView_line7"
+                android:background="#878686"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bt_bg_5"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:id="@+id/imageView_line8"
+                android:background="#878686"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bt_bg_6"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:id="@+id/imageView_line9"
+                android:background="#878686"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bt_bg_7"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="1dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:id="@+id/imageView_line10"
+                android:background="#878686"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
