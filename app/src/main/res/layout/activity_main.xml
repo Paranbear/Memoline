@@ -100,7 +100,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageButton
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/bt_goedit"
@@ -109,7 +109,7 @@
         android:layout_weight="1"
         android:allowUndo="false" />
 
-    <ImageButton
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/bt_golist"
@@ -129,14 +129,14 @@
                 android:layout_height="match_parent"
                 android:id="@+id/iv_golist"
                 android:layout_weight="1"
-                android:src="@drawable/text_change" />
+                android:src="@drawable/post_write_text_grey" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:id="@+id/iv_goedit"
                 android:layout_weight="1"
-                android:src="@drawable/post_write_text_grey" />
+                android:src="@drawable/post_list_text_grey" />
         </LinearLayout>
 
     </FrameLayout>

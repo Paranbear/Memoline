@@ -44,15 +44,15 @@
             android:textSize="13dp"
             android:textColor="#000000" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="5px"
-            android:id="@+id/iv_line_2"
-            android:background="#878686"
-            android:layout_alignParentEnd="false"
-            android:layout_alignParentBottom="true" />
-
     </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:id="@+id/iv_line_2"
+        android:background="#878686"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -70,7 +70,8 @@
             android:layout_alignLeft="@+id/bar_font"
             android:layout_centerVertical="true"
             android:src="@drawable/post_color_text"
-            android:layout_alignParentStart="false" />
+            android:layout_alignParentStart="false"
+            android:scaleType="fitXY" />
 
         <SeekBar
             android:layout_width="300dp"
@@ -79,11 +80,11 @@
             android:progress="0"
             android:max="10"
             android:thumb="@android:color/transparent"
-            android:progressDrawable="@drawable/post_text_color_gradient"
+            android:progressDrawable="@android:color/transparent"
             android:layout_alignParentEnd="true"
-            android:layout_marginLeft="14.2dp"
             android:layout_alignParentStart="false"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:background="@drawable/post_text_color_gradient" />
 
     </RelativeLayout>
 
