@@ -36,8 +36,9 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
 
         callkeyno();
-        callview();
 
+
+//id를 선언하는 함수
         //Button bt_check = (Button) findViewById(R.id.bt_check);
         ImageView iv_goedit = (ImageView) findViewById(R.id.iv_goedit);
         ImageView iv_golist = (ImageView) findViewById(R.id.iv_golist);
@@ -98,14 +99,14 @@ public class MainActivity extends FragmentActivity {
                     break;
                 case R.id.bt_check:
 
-                 /*
+
                  Log.d("check", "체크 실행");
                  EditActivity ttm = (EditActivity) getFragmentManager().findFragmentById(R.id.fragment_base);
                     ttm.noti(no);
-                    Log.d("text", text.getText().toString());
-                    no++;
-                Log.d("text",iv.getBackground().toString());
-                */
+                  //  Log.d("text", text.getText().toString());
+                  //  no++;
+               // Log.d("text",iv.getBackground().toString());
+
 
                     break;
                 case R.id.bt_goset:
@@ -161,11 +162,6 @@ public class MainActivity extends FragmentActivity {
         }
     }
 
-//id를 선언하는 함수
-    public void callview(){
-
-
-}
 
 // 프래그먼트 처음에 나오기
     public void callfragment(){
